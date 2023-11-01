@@ -79,4 +79,4 @@ services:
             restart_policy:
                 condition: on-failure
         volumes:
-            - ./boca-docker/init:/docker-entrypoint-initdb.d
+            - ./init:/docker-entrypoint-initdb.d
