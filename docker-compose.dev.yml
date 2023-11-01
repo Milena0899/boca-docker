@@ -45,9 +45,9 @@ services:
 #            context: .
 #            dockerfile: docker/dev/jail/Dockerfile
 
-    # boca-db:
-    #     volumes: 
-    #         - db-data:/var/lib/postgresql/data
+   # boca-db:
+   #     volumes: 
+   #         - db-data:/var/lib/postgresql/data
 
     boca-adminer:
         image: adminer:latest
